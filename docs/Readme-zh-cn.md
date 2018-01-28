@@ -1,6 +1,6 @@
 # Karma 规范文档
 
-##　目录
+## 目录
 1. 简介
  - [现状](zh-cn/1.1-Status-zh.md)
  - [设计](zh-cn/1.2-Design-zh.md)

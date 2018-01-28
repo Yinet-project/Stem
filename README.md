@@ -15,7 +15,7 @@ Document maintainer:
 
 
 ## Specification documents
-Karma Specification ([中文](docs/README-zh.md)，[English](docs/README.md)) describes the architecture and implementation specifications of the Karma project.
+Karma Specification ([中文](docs/Readme-zh-cn.md)，[English](docs/Readme.md)) describes the architecture and implementation specifications of the Karma project.
 
 ## Projects
 - [KBT](https://github.com/tiannian/KBT) (Karma Build Tool) Used to build and organize Karma projects.

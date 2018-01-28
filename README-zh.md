@@ -26,7 +26,7 @@ Karma希望能够提供一些不同与传统网络结构所不具有的特性。
 - 提供基础传感与基础控制，避免高层应用，降低对硬件芯片的性能需求。
 
 ## 协议文档
-Karma规范([中文](docs/README-zh.md)，[English](docs/README.md))中描述了Karma项目的架构与实现规范。
+Karma规范([中文](docs/Readme-zh-cn.md)，[English](docs/Readme.md))中描述了Karma项目的架构与实现规范。
 
 ## 项目
 - [KBT](https://github.com/tiannian/KBT) (Karma Build Tool) 用于构建与组织Karma项目。

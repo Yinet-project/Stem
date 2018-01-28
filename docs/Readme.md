@@ -1,6 +1,6 @@
-# Karma 规范文档
+# Karma Specification
 
-##　目录
+## Index
 1. Introduction
  - [Status](en-us/1.1-Status.md)
  - [Design](en-us/1.2-Design.md)
