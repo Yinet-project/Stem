@@ -1,18 +1,20 @@
-# Karma RFC文档
+# Karma 规范文档
 
 ##　目录
-- 简介
- - 现状
- - 设计思路
-- 功能
- - 节点
- - 资源
- - 网络
- - 权限
-- 架构
- - 加密方案
- - CoAP与资源操作
- - P2P连接与组网
- - 底层网络抽象
- - 权限验证
- - 缓存策略
+1. Introduction
+ - [Status](en-us/1.1-Status.md)
+ - [Design](en-us/1.2-Design.md)
+2. Conception
+ - [Node](en-us/2.1-Node.md)
+ - [Resources](en-us/2.2-Resources.md)
+3. Architecture
+ - [Kademlia](en-us/3.1-Kademlia.md)
+ - [Global Cache](en-us/3.2-GlobalCache.md)
+ - [Network Connection](en-us/3.3-Connection.md)
+ - [Encryption](en-us/3.4-Encrypt.md)
+ - [NAT Traversal](en-us/3.5-Nat.md)
+4. Specification
+ - [Interface](en-us/4.1-Interface.md)
+ - [Data Structures](en-us/4.2-DataStructures.md)
+5. Projects
+ - [Implementations](en-us/5.1-Implementations.md)

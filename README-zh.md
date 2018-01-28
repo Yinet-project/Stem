@@ -1,17 +1,19 @@
 # Karma
 > A IoT framework based P2P network.
 
-Karma是一个基于P2P网络设计，安全，多层次的物联网(IoT)框架。Karma的目标是提供一个不同于传统中心化设计的物联网方案，以试图解决传统中心化物联网方案中单点失效，数据安全，网络稳定性等方面的问题。
+Karma是一个基于P2P网络，安全，多层次的物联网(IoT)框架。Karma的目标是提供一个不同于传统中心化设计的物联网方案，以试图解决传统中心化物联网方案中单点失效，数据安全，网络稳定性等方面的问题。
 
 ---
 
 文档维护：
-- tiannian dtiannian@aliyun.com
+- [tiannian](https://github.com/tiannian) dtiannian@aliyun.com
+
+[中文](README-zh.md) [English](README.md)
 
 ## 网络特性(设计目标)
 Karma希望能够提供一些不同与传统网络结构所不具有的特性。
 
-- 采用P2P网络进行节点发现，降低网络中单点失效与网络路径中断而对网络产生的影响。
+- 采用DHT网络进行节点发现，降低网络中单点失效与网络路径中断而对网络产生的影响。
 - 物联网节点可以快速且自主的加入网络，并向网络提供基本功能。
 - 节点利用缓存的路由信息自主进行网络组网调整。
 - 在节点网络无法直接到达时，可借助其余节点转发数据流量。
@@ -21,25 +23,19 @@ Karma希望能够提供一些不同与传统网络结构所不具有的特性。
 - 用户可以自由控制节点权限与访问限制。
 - 提供对多种网络接入方式的支持。
 - 提供统一抽象的编程接口与标准，方便开发者开发，方便在不同平台上进行移植。
+- 提供基础传感与基础控制，避免高层应用，降低对硬件芯片的性能需求。
 
 ## 协议文档
-Karma规范(中文，English)中描述了Karma项目的架构与实现规范。
+Karma规范([中文](docs/README-zh.md)，[English](docs/README.md))中描述了Karma项目的架构与实现规范。
 
-## 实现项目
-- KBT(Karma Build Tool) 用于构建与组织Karma项目。
-- libkademlia P2P算法协议Kademlia的C语言实现。
-- libapnl 抽象物理网络层。
-- TweetNacl 来自nacl.cr.yp.to的Public Domain加密算法库。
-- libpfs 提供对数据传输中PFS(完美前向安全)支持。
-- libkarma karma框架核心库
+## 项目
+- [KBT](https://github.com/tiannian/KBT) (Karma Build Tool) 用于构建与组织Karma项目。
+- [TweetNacl](https://github.com/tiannian/TweetNaCl) 来自 [nacl.cr.yp.to](https://nacl.cr.yp.to) 的Public Domain加密算法库。
+- [ikade](#) 改进P2P算法协议Kademlia实现
+- [libapnl](#) 抽象物理网络层。
+- [libpfs](#) 提供对数据传输中PFS(完美前向安全)支持。
+- [libkarma](#) karma框架核心库。
 
 ## 参与项目
 我们欢迎对Karma项目感兴趣，志同道合的朋友参与。
 
-对项目结构及文档进行修改，可以对Karma项目提出issues进行讨论或pull request。
-
-对具体实现项目进行修改，可以在对应项目下提出issues进行讨论或pull request。
-
-## 修改日志
-- 2017.11.16 基础项目定稿
-- 2017.9.9 开始撰写Karma RFC 文档
