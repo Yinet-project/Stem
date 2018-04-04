@@ -5,10 +5,8 @@ Karma是一个基于P2P网络，安全，多层次的物联网(IoT)框架。Karm
 
 ---
 
-文档维护：
+维护：
 - [tiannian](https://github.com/tiannian) dtiannian@aliyun.com
-
-[中文](README-zh.md) [English](README.md)
 
 ## 网络特性(设计目标)
 Karma希望能够提供一些不同与传统网络结构所不具有的特性。
@@ -25,14 +23,14 @@ Karma希望能够提供一些不同与传统网络结构所不具有的特性。
 - 提供统一抽象的编程接口与标准，方便开发者开发，方便在不同平台上进行移植。
 - 提供基础传感与基础控制，避免高层应用，降低对硬件芯片的性能需求。
 
-## 协议文档
-Karma规范([中文](docs/Readme-zh-cn.md)，[English](docs/Readme.md))中描述了Karma项目的架构与实现规范。
-
 ## 项目
 - [KBT](https://github.com/tiannian/KBT) (Karma Build Tool) 用于构建与组织Karma项目。
-- [TweetNacl](https://github.com/tiannian/TweetNaCl) 来自 [nacl.cr.yp.to](https://nacl.cr.yp.to) 的Public Domain加密算法库。
-- [ikade](#) 改进P2P算法协议Kademlia实现
-- [libapnl](#) 抽象物理网络层。
+- [TweetNacl](https://github.com/tiannian/TweetNaCl) 来自 [tweetnacl](https://tweetnacl.cr.yp.to) 的Public Domain加密算法库。
+- [libkademlia](#) Improved P2P algorithm protocol Kademlia achieve.
+- [libascl](#) Abstract system compatible layer.
+- [libcbor](#) Concise Binary Object Representation.
+- [librouter](#) Router table manager module with static cache.
+- [libkeystore](#) Private key , Public key and some meta information manager
 - [libpfs](#) 提供对数据传输中PFS(完美前向安全)支持。
 - [libkarma](#) karma框架核心库。
 

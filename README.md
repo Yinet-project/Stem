@@ -1,29 +1,15 @@
 # Karma
 > A IoT framework based P2P network.
 
-Karma is a security, multi-layered Internet of Things framework based on P2P network. Karma's goal is to provide an IoT solution that is different from the traditional centralized design in an attempt to solve the single point of failure, data security, network stability and other issues in the traditional centralized IoT solution.
+Karma是一个基于P2P网络，安全，多层次的物联网(IoT)框架。Karma的目标是提供一个不同于传统中心化设计的物联网方案，以试图解决传统中心化物联网方案中单点失效，数据安全，网络稳定性等方面的问题。
 
 ---
 
-Document maintainer:
+文档维护：
 - [tiannian](https://github.com/tiannian) dtiannian@aliyun.com
 
-[中文](README-zh.md) [English](README.md)
+## 语言
+- [中文](zh/README.md) 
+- [English](en/Readme.md)
 
-## Network features(Design goals)
-> TODO
 
-
-## Specification documents
-Karma Specification ([中文](docs/Readme-zh-cn.md)，[English](docs/Readme.md)) describes the architecture and implementation specifications of the Karma project.
-
-## Projects
-- [KBT](https://github.com/tiannian/KBT) (Karma Build Tool) Used to build and organize Karma projects.
-- [TweetNacl](https://github.com/tiannian/TweetNaCl) Public Domain Cryptography Library from [nacl.cr.yp.to](https://nacl.cr.yp.to)
-- [ikade](#) Improved P2P algorithm protocol Kademlia achieve.
-- [libapnl](#) Abstract physical network layer.
-- [libpfs](#) PFS (Perfect Forward Security) support for data transfer.
-- [libkarma](#) The core library for Karma framework.
-
-## Contribution
-We welcome like-minded friends who are interested in the Karma project.
