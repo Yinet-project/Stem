@@ -34,13 +34,10 @@ Karma希望能够提供一些特性：
 ## 实现项目
 - [KBT](https://github.com/tiannian/KBT) (Karma Build Tool) 用于构建与组织Karma项目。
 - [TweetNacl](https://github.com/tiannian/TweetNaCl) 来自 [tweetnacl](https://tweetnacl.cr.yp.to) 的Public Domain加密算法库。
-- [libkademlia](#) Improved P2P algorithm protocol Kademlia achieve.
-- [libascl](#) Abstract system compatible layer.
-- [libcbor](#) Concise Binary Object Representation.
-- [librouter](#) Router table manager module with static cache.
-- [libkeystore](#) Private key , Public key and some meta information manager
-- [libpfs](#) 提供对数据传输中PFS(完美前向安全)支持。
-- [libkarma](#) karma框架核心库。
+- [er-coap](http://github.com/Karma-IoT/er-coap) 来自`contiki`的CoAP协议栈实现。
+- [ascl](https://github.com/Karma-IoT/ascl) 抽象不同平台的抽象系统适配层定义。
+- [ascl-type](https://github.com/Karma-IoT/ascl-type) 用于ascl中的跨平台数据类型定义。
+- [kbucket](https://github.com/Karma-IoT/kbucket) 用于记录管理Kademlia协议的路由表。
 
 ## 参与项目
 我们欢迎对Karma项目感兴趣，志同道合的朋友参与。
