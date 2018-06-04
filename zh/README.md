@@ -23,6 +23,10 @@ Karma希望能够提供一些不同与传统网络结构所不具有的特性。
 - 提供统一抽象的编程接口与标准，方便开发者开发，方便在不同平台上进行移植。
 - 提供基础传感与基础控制，避免高层应用，降低对硬件芯片的性能需求。
 
+## 规范目录
+
+[目录](spec/SUMMARY.md)
+
 ## 实现项目
 - [KBT](https://github.com/tiannian/KBT) (Karma Build Tool) 用于构建与组织Karma项目。
 - [TweetNacl](https://github.com/tiannian/TweetNaCl) 来自 [tweetnacl](https://tweetnacl.cr.yp.to) 的Public Domain加密算法库。
