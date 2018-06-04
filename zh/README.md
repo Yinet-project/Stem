@@ -25,7 +25,7 @@ Karma希望能够提供一些不同与传统网络结构所不具有的特性。
 
 ## 规范目录
 
-[目录](spec/SUMMARY.md)
+[目录](specs/SUMMARY.md)
 
 ## 实现项目
 - [KBT](https://github.com/tiannian/KBT) (Karma Build Tool) 用于构建与组织Karma项目。
