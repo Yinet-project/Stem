@@ -1,21 +1,21 @@
 # Karma Specification
 
 * Introduction
-  * [Status](1.1-Status.md)
-  * [Design](1.2-Design.md)
+  * [Status](specs/1.1-Status.md)
+  * [Design](specs/1.2-Design.md)
 * Conception
-  * [Node](2.1-Node.md)
-  * [Resources](2.2-Resources.md)
-  * [Permission](2.2-Resources.md)
+  * [Node](specs/2.1-Node.md)
+  * [Resources](specs/2.2-Resources.md)
+  * [Permission](specs/2.3-Permission.md)
 * Architecture
-  * [Kademlia](3.1-Kademlia.md)
-  * [Cache](3.2-Cache.md)
-  * [Connection](3.3-Connection.md)
-  * [Encryption](3.4-Encryption.md)
-  * [NAT Traversal](3.5-Nat.md)
-  * [OTA](3.6-OTA.md)
+  * [Kademlia](specs/3.1-Kademlia.md)
+  * [Cache](specs/3.2-Cache.md)
+  * [Connection](specs/3.3-Connection.md)
+  * [Encryption](specs/3.4-Encryption.md)
+  * [NAT Traversal](specs/3.5-Nat.md)
+  * [OTA](specs/3.6-OTA.md)
 * Specification
-  * [Interface](4.1-Interface.md)
-  * [Data Structures](4.2-DataStructures.md)
+  * [Interface](specs/4.1-Interface.md)
+  * [Data Structures](specs/4.2-DataStructures.md)
 * Projects
-  * [Implementations](5.1-Implementations.md)
+  * [Implementations](specs/5.1-Implementations.md)
