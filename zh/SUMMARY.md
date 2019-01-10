@@ -6,7 +6,7 @@
 
    - [设计](specs/1.2-Design.md)
 
-2. 概念
+2. 设计
 
    - [节点](specs/2.1-Node.md)
 
@@ -15,12 +15,11 @@
    - [权限](specs/2.3-Permission.md)
    - [分层]()
 
-3. 架构
-   - [通信]()
+3. 抽象层
+   - [连接]()
    - [存储]()
    - [控制]()
-   - [传感]()
-   - 
+   - [资源]()
 
 * [Kademlia](specs/3.1-Kademlia.md)
 * [缓存](specs/3.2-Cache.md)
