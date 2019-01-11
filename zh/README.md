@@ -43,7 +43,14 @@ Karma的规范中包含以下部分：
 
 ## 规范目录
 
-[目录](SUMMARY.md)
+1. 简介
+   - [现状](specs/1.1-Status.md)
+   - [设计](specs/1.2-Design.md)
+2. 设计
+   - [节点](specs/2.1-Node.md)
+   - [资源](specs/2.2-Resources.md)
+   - [权限](specs/2.3-Permission.md)
+   - [分层]()
 
 ## 实现项目
 - [Chepp](https://github.com/Karma-IoT/Chepp) - 通用包管理器 `Chest` 的C++实现。
