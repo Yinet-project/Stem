@@ -1,35 +1,27 @@
 # Karma 规范文档
 
-1. 简介
-
-   - [现状](specs/1.1-Status.md)
-
-   - [设计](specs/1.2-Design.md)
-
-2. 设计
-
-   - [节点](specs/2.1-Node.md)
-
-   - [资源](specs/2.2-Resources.md)
-
-   - [权限](specs/2.3-Permission.md)
-   - [分层]()
-
-3. 抽象层
-   - [连接]()
-   - [存储]()
-   - [控制]()
-   - [资源]()
-
-* [Kademlia](specs/3.1-Kademlia.md)
-* [缓存](specs/3.2-Cache.md)
-* [网络连接](specs/3.3-Connection.md)
-* [加密](specs/3.4-Encryption.md)
-* [网络传输](specs/3.5-Nat.md)
-* [空中升级](specs/3.6-OTA.md)
-
-* 规范
-  * [接口](specs/4.1-Interface.md)
-  * [数据结构](specs/4.2-DataStructures.md)
-* 实现项目
-  * [实现](specs/5.1-Implementations.md)
+- 1 简介
+  - 1.1 [现状](specs/1.1-Status.md)
+  - 1.2 [设计](specs/1.2-Design.md)
+- 2 概念
+  - 2.1 [节点](specs/2.1-Node.md)
+  - 2.2 [资源](specs/2.2-Resources.md)
+  - 2.3 [权限](specs/2.3-Permission.md)
+  - 2.4 [结构](specs/2.4-Construction.md)
+- 3 协议
+  - 3.1 [网络协议栈](specs/3.1-Network.md)
+    - 3.1.1 [网络设备抽象](specs/3.1.1-Device.md)
+    - 3.1.2 [通用Layer 2](specs/3.1.2-Layer2.md)
+    - 3.1.3 [管理API](specs/3.1.3-ManagementAPI.md)
+    - 3.1.4 [IP协议栈](specs/3.1.4-IPStack.md)
+    - 3.1.5 [通用传输层与API](specs/3.1.5-TransportLayer.md)
+  - 3.2 [传感器](specs/3.2-Sensor.md)
+  - 3.3 [节点发现与路由](specs/3.3-NodeDiscovery.md)
+  - 3.4 [资源管理](specs/3.4-Resources.md)
+  - 3.5 [存储系统](specs/3.5-Storage.md)
+  - 3.6 [设备固件更新](specs/3.6-Fireware.md)
+  - 3.7 [权限与安全](specs/3.7-Security.md)
+    - 3.7.1 [资源权限控制](specs/3.7.1-Permissions.md)
+    - 3.7.2 [设备认证](specs/3.7.2-Authorization.md)
+    - 3.7.3 [密钥管理](specs/3.7.3-KeyManagement.md)
+  - 3.8 [总线抽象](specs/3.8-Bus.md)

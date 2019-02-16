@@ -14,7 +14,7 @@
 - 提供可靠的连接协议与去中心化的节点发现机制，避免单点失效与网络波动对设备的影响。
 - 为节点设计可靠的重连与自动恢复机制，降低设备使用者的维护成本与心智负担。
 - 提供完善的加密策略与认证和机制，保证节点的安全性，为用户提供更好的隐私保护机制。
-- 提供规范化的协议设计，提供便于移植的代码，一定程度上解决数据孤岛的问题。
+- 提供规范化的协议设计，提供便于移植的代码。
 
 ## 网络特性
 Karma希望能够为网络提供一些特性：
@@ -40,24 +40,40 @@ Karma的规范中包含以下部分：
 
 - [Karma](https://github.com/Karma-IoT/Karma) - 分布式/去中心化的数据交互框架与网络基础设施。
 - [Chest](https://github.com/Karma-IoT/Chest) - 通用化的包管理器，可管理包括源代码，预编译文件，工具链等。
+- [cQUIC](https://github.com/Karma-IoT/cQUIC) - 为嵌入式设备设计的简化的QUIC协议。
 
 ## 规范目录
 
-1. 简介
-   - [现状](specs/1.1-Status.md)
-   - [设计](specs/1.2-Design.md)
-2. 设计
-   - [节点](specs/2.1-Node.md)
-   - [资源](specs/2.2-Resources.md)
-   - [权限](specs/2.3-Permission.md)
-   - [分层]()
+- 1 简介
+  - 1.1 [现状](specs/1.1-Status.md)
+  - 1.2 [设计](specs/1.2-Design.md)
+- 2 概念
+  - 2.1 [节点](specs/2.1-Node.md)
+  - 2.2 [资源](specs/2.2-Resources.md)
+  - 2.3 [权限](specs/2.3-Permission.md)
+  - 2.4 [结构](specs/2.4-Construction.md)
+- 3 协议
+  - 3.1 [网络协议栈](specs/3.1-Network.md)
+    - 3.1.1 [网络设备抽象](specs/3.1.1-Device.md)
+    - 3.1.2 [通用Layer 2](specs/3.1.2-Layer2.md)
+    - 3.1.3 [管理API](specs/3.1.3-ManagementAPI.md)
+    - 3.1.4 [IP协议栈](specs/3.1.4-IPStack.md)
+    - 3.1.5 [通用传输层与API](specs/3.1.5-TransportLayer.md)
+  - 3.2 [传感器](specs/3.2-Sensor.md)
+  - 3.3 [节点发现与路由](specs/3.3-NodeDiscovery.md)
+  - 3.4 [资源管理](specs/3.4-Resources.md)
+  - 3.5 [存储系统](specs/3.5-Storage.md)
+  - 3.6 [设备固件更新](specs/3.6-Fireware.md)
+  - 3.7 [权限与安全](specs/3.7-Security.md)
+    - 3.7.1 [资源权限控制](specs/3.7.1-Permissions.md)
+    - 3.7.2 [设备认证](specs/3.7.2-Authorization.md)
+    - 3.7.3 [密钥管理](specs/3.7.3-KeyManagement.md)
+  - 3.8 [总线抽象](specs/3.8-Bus.md)
 
 ## 实现项目
 - [Chepp](https://github.com/Karma-IoT/Chepp) - 通用包管理器 `Chest` 的C++实现。
-- [TweetNacl](https://github.com/tiannian/TweetNaCl) 来自 [tweetnacl](https://tweetnacl.cr.yp.to) 的Public Domain加密算法库。
+- [Disco-c](https://github.com/mimoo/disco-c) [Disco](https://discocrypto.com/)的C语言版本，由David Wong基于[Strobe](https://strobe.sourceforge.io/)和[Noise](http://noiseprotocol.org/)设计的密码学库。
 - [er-coap](http://github.com/Karma-IoT/er-coap) 来自`contiki`的CoAP协议栈实现。
-- [ascl](https://github.com/Karma-IoT/ascl) 抽象不同平台的抽象系统适配层定义。
-- [ascl-type](https://github.com/Karma-IoT/ascl-type) 用于ascl中的跨平台数据类型定义。
 
 ## 参与项目
 我们欢迎对Karma项目感兴趣，志同道合的朋友参与。
