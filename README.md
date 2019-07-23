@@ -1,4 +1,5 @@
 # Karma
+
 > This document presents Karma, a distributed/decentralized data interaction framework and network infrastructure. It can be used as an independent data interaction framework for IoT devices or as a network infrastructure to support other P2P systems.
 
 > 本文档介绍了Karma，一个分布式/去中心化的数据交互框架与网络基础设施。它可以作为独立的数据交互框架，用于物联网设备，也可以作为基础的网络设施为其他P2P系统提供支持。

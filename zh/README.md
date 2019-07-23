@@ -1,13 +1,13 @@
 # Karma
-> A distributed/decentralized framework for interactable data and network infrastructure, included IoT.
+> A distributed/decentralized framework for interactable data and network infrastructure, included IoT or Layer 0 for blockchains.
 
 ---
 
-#### 维护：
+文档维护：
 
 - [tiannian](https://github.com/tiannian) <dtiannian@aliyun.com, dtiannian@gmail.com>
 
-## 目标
+## 设计目标
 
 - 适配更多廉价高效的设备，降低物联网设备的硬件成本。
 - 适配更多的网络协议，模块化的，层次化的设计，降低物联网设备的开发成本。
