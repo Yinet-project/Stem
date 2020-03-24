@@ -1,23 +1,48 @@
-# Stem
+# Stem: A distributed infrastructure
 
-> This document presents Karma, a distributed/decentralized data interaction framework and network infrastructure. It can be used as an independent data interaction framework for IoT devices or as a network infrastructure to support other P2P systems.
+*read in other language: [简体中文](zh/README.md)*
 
-> 本文档介绍了Karma，一个分布式/去中心化的数据交互框架与网络基础设施。它可以作为独立的数据交互框架，用于物联网设备，也可以作为基础的网络设施为其他P2P系统提供支持。
+## Table of Contents
+
+- [Overview](#Overview)
+- [Project Design](#project-design)
+  - [Paper and Documents](#paper-and-documents)
+- [State of project](#state-of-project)
+  - [Implementation](#Implementation)
+- [License](#License)
+
+## Overview
 
 ![](img/stem.png)
 
-Karma is a distributed/decentralized data interaction framework and network infrastructure. Its design for IoT devices and even general-purpose computing devices. It characterizes by security, high efficiency, controllable, and low device requirements. Karma's goal is to provide a data interaction framework that is different from traditional centralized design. In this way, we try to solve the problems of single point failure, data security, network stability and so on in the conventional centralized system.
+## Project Design
 
-Karma是一个分布式/去中心化的数据交互框架与网络基础设施。它为物联网设备设计乃至通用计算设备设计，具有安全，高效可控，设备需求较低等特点。Karma目标是提供一个不同于传统中心化设计的数据交互框架，以试图解决传统中心化系统中单点失效，数据安全，网络稳定性等方面的问题。
+To learn more design detail for this project, please read [Paper and Documents](#Paper and Documents). 
 
----
+### Paper and Documents
 
-Document maintainer：
-- [tiannian](https://github.com/tiannian) <dtiannian@aliyun.com, dtiannian@gmail.com>
+- [Whitepaper](en/whitepaper.md): Describe `Stem`'s aims and design principle.
+- [RFCs](en/rfcs/index.md): Describe the detail of project.
 
-## Specification
+## State of project
 
-- [中文](zh/README.md)
-- [English](en/Readme.md)
+***Yinet is a work in process!***
 
+### Implementation
 
+- Rust
+  - [addr-hal](#) Hal for abstract for address in `no_std`.
+  - [net-hal](#): Hal for network in `no_std`.
+  - [manager-hal](#): Hal for network device manager in `no_std`.
+  - [lwip-net](#): Hal implementation for `net-hal`
+  - [udp-reuse](#): Reusable udp package.
+  - [discovery](#): distributed network discovery using DHT.
+  - [tunnel](#): Nat travelling.
+  - [keymanager](#): Key management for Node.
+  - [kv-hal](#): Hal for kv storage.
+
+We persent project's roadmap here.
+
+## License
+
+MIT
