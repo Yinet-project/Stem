@@ -17,6 +17,8 @@
 
 ### Introduction
 
+The goal of `Stem` is to become the basic stem cell of a distributed system. Its design for IoT devices and even general computing devices. It characterizes by security, high  efficiency, controllable, and low device requirements. Karma's goal is  to provide a data interaction framework that is different from  traditional centralized design. In this way, we try to solve the  problems of single point failure, data security, network stability and  so on in the conventional centralized system.
+
 ![](img/stem.png)
 
 ### Project structure
@@ -31,7 +33,7 @@ This part present all project structure and this project's location.
   - [Vida](https://github.com/Yinet-project/Stem): Misc project of `Yinet` for application.
     - [Curdata](): Application at financial.
 
-  ## Project Design
+## Project Design
 
 To learn more design detail for this project, please read [Paper and Documents](#Paper and Documents). 
 
